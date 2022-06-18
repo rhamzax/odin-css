@@ -55,6 +55,7 @@ footer{
 }
 .content{
     display: flex;
+    flex:1;
     flex-direction: column;
 }
 .hero-main{
@@ -63,7 +64,7 @@ footer{
 }
 
 .hero-text{
-    max-width: 60ch;
+    max-width: 60%;
 }
 
 .action-button {
@@ -81,9 +82,11 @@ footer{
 .action-button:hover{
     background-color: #0f69fa;
 }
-
+.title-img{
+    object-fit: contain;
+}
 .info{
-    background-color: #F9FAF8;
+    background-color: white;
     padding: 1rem 15rem;
     color: #1F2937;
 }
@@ -116,3 +119,34 @@ footer{
     margin-bottom: 10px;
 }
 
+.quote-area{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 5rem 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.main-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    justify-self: center;
+}
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.sign-up{
+    color: #1F2937;
+    padding: 1rem 15rem;
+    display: flex;
+    justify-content: center;
+}
