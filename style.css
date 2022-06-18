@@ -52,6 +52,7 @@ footer{
     display:flex;
     flex: 1;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .content{
     display: flex;
@@ -61,10 +62,12 @@ footer{
 .hero-main{
     font-size: 48px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .hero-text{
     max-width: 60%;
+    margin-bottom: 10px;
 }
 
 .action-button {
@@ -88,6 +91,7 @@ footer{
 .info{
     background-color: white;
     padding: 1rem 15rem;
+    margin-bottom: 3rem;
     color: #1F2937;
 }
 .info h2{
@@ -147,11 +151,12 @@ footer{
 .sign-up{
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 1rem 15rem;
+    margin: 5rem 15rem;
     display: flex;
     justify-content: space-between;
     padding: 2rem 10rem;
     font-size: 1rem;
+    border-radius: 10px;
 }
 
 .msg h6{
@@ -163,4 +168,7 @@ footer{
 #inverted{
     border: 1px solid #F9FAF8;
     border-radius: 10px;
+    width: 20%;
+    height: 50%;
+    align-self: center;
 }
