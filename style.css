@@ -145,8 +145,22 @@ footer{
     font-weight: bolder;
 }
 .sign-up{
-    color: #1F2937;
-    padding: 1rem 15rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 1rem 15rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    font-size: 1rem;
+}
+
+.msg h6{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+#inverted{
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
 }
